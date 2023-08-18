@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e8ff;
+  background-image: url("../images/tepa-image.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.wrappper-container {
+  background: #ffff;
+  max-width: 450px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+
+.contaiener {
+  text-align: center;
+}
+
+.wrapper-container-h1 {
+  color: #1f2e55;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 44px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+.wrapper-text {
+  padding-top: 17px;
+  color: #717fa6;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.wrapper-title {
+  color: #1f2e55;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+.wrapper-text {
+}
+
+.mini-container-annual-plan {
+  width: 380px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  margin: 45px;
+  padding-left: 24px;
+}
+
+.wrapper-annual-price-title {
+  color: #1f2e55;
+  font-size: 16px;
+  font-weight: 900;
+  padding-top: 25px;
+  padding-right: 88px;
+}
+.wrapper-annual-price-info {
+  color: #717fa6;
+  font-family: "Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.wrapper-annual-link {
+  color: blue;
+  text-decoration: underline;
+  border-radius: 5px;
+  padding-right: 39px;
+}
+
+.wrapper-annual-link:hover {
+  color: #2b56c3;
+  background-color: #ede5e5fd;
+}
+
+.footer-dtn-container {
+  border-radius: 11px;
+  color: #fff;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  padding-left: 70px;
+}
+.footer-btn-title {
+  background: #382ae1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  width: 280px;
+  height: 50px;
+  border-radius: 11px;
+  color: #ffff;
+}
+
+.footer-btn-title:hover {
+  background-color: rgb(66, 113, 154);
+}
+
+.footer-link-btn {
+  color: #717fa6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 48px;
+  padding-right: 75px;
+}
